@@ -18,6 +18,7 @@
 - There are 51 bike descriptions and 41 unique ones (including nan), maybe it is worth combining those?
 - Okay so there are no bikes that have propulsion type as null and have battery stats in trips so maybe they are all human powered
 - Based on form-factor -> 91 bikes have non null values -> 71 bicycles, 19 cargo and 1 other
+- There is an bike type called "Unknown" which is ID 0 and human propelled, maybe the bikes with no data can be merged into that type
 
 #### Things to fix
 - Add an average or median values to the missing battery capacity and max range
