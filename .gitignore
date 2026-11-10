@@ -1,9 +1,6 @@
-/jayesh/data/*
-/test_supervised/data/*
 **/data/
 .idea/
 /chibach/
 __pycache__/
-jayesh/ai/models/*.csv
 /bike_sharing_challenge_2026/*
 .ipynb_checkpoints/
