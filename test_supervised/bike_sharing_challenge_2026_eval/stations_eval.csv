@@ -1,0 +1,214 @@
+id,city_id,name,app_number,terminal_type,place_type,bike_racks,special_racks,rack_locks,lon,lat
+139041176,773,KLARA Sparchen,32524,sign,23,1,0,,12.17886,47.590185
+60956597,266,Parkinsel - Festival des deutschen Films,25064,smart_sign,0,0,0,,8.460106,49.472942
+66096128,709,Písek - Jaromíra Malého (potraviny),48393,sign,27,0,0,,14.163941,49.311351
+66097105,709,Písek - V.Kršky/O.Jeremiáše,48398,sign,27,0,0,,14.163458,49.305846
+66097683,709,Písek - Budějovická (u zastávky),48401,sign,0,0,0,,14.159811,49.301859
+77054647,773,Stadtpark / Franz Josef-Platz,32516,sign,0,7,0,,12.17168,47.584056
+44242699,709,Olympie,48140,sign,0,0,0,,14.155123,49.306574
+344835,266,Hauptbahnhof,2590,stele,0,12,0,,8.435215,49.478299
+344837,266,Rathaus,2592,stele,0,10,0,,8.443261,49.484688
+7596126,266,Hauptbahnhof Ostausgang,27350,smart_sign,0,0,0,,8.433756,49.475905
+7596144,266,LU Süd - Bayernplatz,27150,smart_sign,0,0,0,,8.445901,49.472279
+10409761,266,Sebastian-Bach-Straße,2587,stele,0,6,0,,8.44148,49.473436
+11272269,266,Schwanthalerplatz,2589,stele,0,8,0,,8.455849,49.469525
+11272311,266,Amtsgericht,2606,stele,0,8,0,,8.45175,49.471641
+11272337,266,Wredestraße,2607,stele,0,8,0,,8.444147,49.477626
+11272359,266,Marienkirche,2608,stele,0,8,0,,8.430666,49.485247
+11272372,266,Klinikum,2609,stele,0,8,0,,8.423415,49.490139
+22821835,266,LU - West / Heinrich Pesch Haus,2599,,0,0,0,,8.410785,49.485419
+29456334,266,LU-Süd - Halbergstraße,25061,smart_sign,0,0,0,,8.455095,49.477564
+41478928,266,Rheingönheim - Neubruch,25095,smart_sign,0,0,0,,8.425709,49.440739
+41479005,266,Rheingönheim -  Kornackerstraße,25094,smart_sign,0,0,0,,8.423933,49.449166
+41479076,266,Rheingönheim -  Hauptstraße,25093,smart_sign,0,0,0,,8.41564,49.444332
+41479669,266,Gartenstadt - Marienkrankenhaus,25076,smart_sign,0,0,0,,8.407974,49.459101
+41479776,266,Gartenstadt - Kärtnerstraße,25073,smart_sign,0,0,0,,8.405179,49.45514
+41479819,266,Gartenstadt - Raschig-/Hochfeldstraße,25074,smart_sign,0,0,0,,8.408082,49.465963
+41480021,266,Mundenheim - Am Schwanen,25077,smart_sign,0,0,0,,8.429191,49.463373
+41480058,266,Mundenheim - S-Bahnhof Ostseite,25078,smart_sign,0,0,0,,8.421198,49.461141
+41480113,266,Mundenheim - S-Bahnhof Westseite,25079,smart_sign,0,0,0,,8.420913,49.462187
+41480206,266,Mundenheim - Bruchwiesen-/Pinienstraße,25080,smart_sign,0,0,0,,8.419604,49.466318
+41480250,266,Mundenheim - Hoheneckenstraße,25081,smart_sign,0,0,0,,8.427002,49.457232
+41480304,266,Mundenheim - Südweststadion,25082,smart_sign,0,0,0,,8.434415,49.467448
+41480534,266,Friesenheim - Ebertpark,25070,smart_sign,0,0,0,,8.417448,49.489737
+41480589,266,Friesenheim - Luitpoldplatz,25071,smart_sign,0,0,0,,8.411214,49.498434
+41480646,266,Friesenheim -Rheinfeldstraße,25072,smart_sign,0,0,0,,8.424363,49.499535
+41480716,266,Oggersheim -  Adolf-Diesterweg-/Adolf-Kolping-Straße,25083,smart_sign,0,0,0,,8.362715,49.494068
+41480849,266,Oggersheim - S-Bahnhof,25084,smart_sign,0,0,0,,8.381335,49.492918
+41480902,266,Oggersheim - Hans-Warsch-Platz,25087,smart_sign,0,0,0,,8.376265,49.492103
+41481152,266,Oggersheim - Endstelle,25085,smart_sign,0,0,0,,8.364099,49.488828
+41481221,266,Melm -  Willi-Sohl-Straße,25089,smart_sign,0,0,0,,8.380181,49.50753
+41481311,266,Melm - Senta-Geissler-Straße,25088,smart_sign,0,0,0,,8.385202,49.505792
+41481357,266,Melm Erwin-Bünisholz-Weg,25086,smart_sign,0,0,0,,8.38185,49.502643
+154731780,266,Haltepunkt Ruchheim,25271,free,17,0,0,,8.3279,49.478829
+5445362,450,Wyzwolenia/Fieldorfa Nila,6350,7inch,0,15,0,,19.130861,50.841002
+5445365,450,Rynek Wieluński,6331,7inch,0,15,0,,19.096477,50.816385
+5445375,450,Promenada/Kiedrzyńska,6333,7inch,0,15,0,,19.116957,50.832946
+5445382,450,Promenada/Amfiteatr,6332,7inch,0,15,0,,19.128957,50.834213
+5445387,450,Okulickiego/Łódzka,6349,7inch,0,15,0,,19.099592,50.823621
+5445396,450,Park Wodny,6334,7inch,0,15,0,,19.11941,50.8261
+5445403,450,Jadwigi/Park Wypoczynkowy,6348,7inch,0,15,0,,19.08102,50.808348
+5445408,450,Pasaż Bareły/Jasna Góra,6347,7inch,0,15,0,,19.099705,50.811121
+5445464,450,Boh. Monte Cassino/Korczaka,6343,7inch,0,15,0,,19.111941,50.802667
+5445468,450,Armii Krajowej/Politechnika,6342,7inch,0,15,0,,19.11769,50.82184
+5445472,450,PKP Centrum,6341,7inch,0,15,0,,19.118782,50.808588
+5445476,450,Orkana/Szkoła,6339,7inch,0,15,0,,19.131907,50.778888
+5445478,450,Jagiellońska/Estakada,6338,7inch,0,15,0,,19.141606,50.784552
+5445480,450,ul. Bialska - aleja Brzozowa,6340,7inch,0,15,0,,19.086314,50.831274
+28726912,450,Limanowskiego Stadion,6351,7inch,0,15,0,,19.157298,50.776577
+28726929,450,Plac Orląt Lwowskich,6352,7inch,0,15,0,,19.147812,50.785919
+28726958,450,Św. Rocha/Szkoła,6353,7inch,0,15,0,,19.065864,50.833006
+50401516,450,PKP RAKÓW,6354,7inch,0,12,0,,19.15357,50.78817
+50401537,450,PKP STRADOM,6355,7inch,0,12,0,,19.10747,50.79804
+50401562,450,Pływalnia Kryta - MOSiR (al. Niepodległości),6356,7inch,0,0,0,,19.13224,50.78974
+6320360,487,Isambard Complex,8749,smart_sign,0,20,0,,-0.479605,51.532918
+6320394,487,Hillingdon Hospital,8750,smart_sign,0,10,0,,-0.461554,51.526821
+6320422,487,Sports Pavilion,8751,smart_sign,0,8,0,,-0.464592,51.528727
+6320443,487,Bannerman Centre,8753,smart_sign,0,30,0,,-0.474522,51.533099
+6320482,487,Eastern Gateway,8752,smart_sign,0,10,0,,-0.469244,51.533079
+7128678,487,Uxbridge Train Station,8748,smart_sign,0,10,0,,-0.478884,51.545776
+39409624,487,Uxbridge High Street,8754,smart_sign,0,10,0,,-0.480583,51.547146
+67022727,487,West Drayton - High Street 	,8755,smart_sign,0,5,0,,-0.473783,51.510597
+67022973,487,West Drayton - Station Road	,8756,smart_sign,0,5,0,,-0.473309,51.508445
+4648298,439,Rathaus,5130,smart_sign,0,0,0,,8.411059,49.995043
+4648309,439,Studierendenwohnheim Auf dem Steinweg,5131,smart_sign,0,0,0,,8.401875,49.99296
+4648317,439,Studierendenwohnheim An der Feuerwache,5132,smart_sign,0,0,0,,8.409712,49.984617
+4648324,439,Bahnhof Nordseite,5133,smart_sign,0,0,0,,8.412346,49.992208
+4648333,439,Bahnhof Südseite,5134,smart_sign,0,0,0,,8.412099,49.990929
+4648340,439,Campus Am Brückweg,5135,smart_sign,0,0,0,,8.424631,49.985586
+4648352,439,Studierendenwohnheim August-Bebel-Straße,5136,smart_sign,0,0,0,,8.423971,49.983758
+78889048,439,Stadion,5137,free,0,0,0,,8.425076,50.001764
+78889491,439,Berliner Platz,5138,free,0,0,0,,8.42974,49.998378
+78889761,439,Waldweg,5139,free,0,0,0,,8.446625,49.996547
+78890049,439,Lucas-Cranach-Straße,5118,free,0,0,0,,8.443768,49.990786
+78890378,439,Rüsselsheimer Straße,5120,free,0,0,0,,8.456318,49.986552
+78890940,439,Liebigstraße,5121,free,0,0,0,,8.439689,49.981832
+78891469,439,Theater,5122,free,0,0,0,,8.425531,49.991564
+143844852,439,Friedensplatz,5117,free,0,0,0,,8.41519,49.994984
+143845173,439,Bahnhof Opelwerk,5119,free,0,0,0,,8.399382,49.989082
+171726416,439,Raunheim - Pinta Beach,5129,free,17,0,0,,8.475072,50.012359
+171726629,439,Raunheim - Bahnhof,5128,free,17,0,0,,8.456104,50.010442
+44242208,709,Písek - ul. Tyršova u stánku (zpevněná plocha),48123,sign,0,0,0,,14.150348,49.313139
+44242227,709,Velké náměstí (Radnice),48124,sign,0,0,0,,14.147679,49.308919
+44242331,709,Plavecký bazén,48127,sign,0,0,0,,14.145843,49.305553
+44242485,709,Starý most ( U Mozarta ),48132,sign,0,0,0,,14.144768,49.309859
+44242506,709,Velké náměstí (Komerční banka),48133,sign,0,0,0,,14.147429,49.307594
+44242536,709,Výstaviště,48134,sign,0,0,0,,14.140154,49.308236
+44242604,709,Písek - Šafaříkova/Erbenova (vysazená plocha u restaurace),48136,sign,0,0,0,,14.147698,49.313632
+44242624,709,Mírové nám.,48137,sign,0,0,0,,14.156757,49.311829
+44242651,709,Žižkova tř.,48138,sign,0,0,0,,14.154437,49.309894
+44242682,709,Písek - Čechova/ V Portyči (zídka u parčíku),48139,sign,0,0,0,,14.144055,49.311778
+44242731,709,Husovo nám.,48141,sign,0,0,0,,14.151635,49.303657
+44242775,709,Švantlák,48144,sign,0,0,0,,14.145424,49.304689
+44242804,709,Písek - Smetanovo náměstí (roh Jeronýmova),48145,sign,0,0,0,,14.154232,49.315338
+44242825,709,Ob. galerie,48146,sign,0,0,0,,14.139744,49.303286
+44242857,709,T.G.M.,48147,sign,0,0,0,,14.141053,49.310254
+44242920,709,Zimní stadion,48148,sign,0,0,0,,14.142355,49.306889
+44242934,709,Starý most - Johanka,48149,sign,0,0,0,,14.146534,49.309641
+44543931,709,Písek - Dobešice ubytovna,48150,sign,0,0,0,,14.112781,49.328013
+44544039,709,Písek - Písek město vlak,48151,sign,0,0,0,,14.161259,49.313828
+44544087,709,Písek - Čížovská bus,48152,sign,0,0,0,,14.119079,49.330163
+44544150,709,Písek - Průmyslová bus ,48153,sign,0,0,0,,14.119197,49.324776
+44544177,709,Písek - Za Pazdernou (parking) ,48154,sign,0,2,0,,14.1576,49.315996
+44544218,709,Písek - Technologický park CLB,48155,sign,0,0,0,,14.138208,49.313862
+44544255,709,Písek - roh Na Pěníku/ Jablonského,48156,sign,0,0,0,,14.142135,49.316954
+44544396,709,Písek - Coop,48157,sign,0,0,0,,14.143057,49.315356
+44544513,709,Písek - Vinařického/Na Stínadlech (vedle kontejneru na textil),48158,sign,0,0,0,,14.14052,49.315373
+44544533,709,Písek - Zátavské nábřeží - stojany,48159,sign,0,0,0,,14.131315,49.307973
+44544575,709,Písek - Libušina (u kruháče) ,48160,sign,0,0,0,,14.12852,49.313667
+44544640,709,Písek - Ke střelnici - bus,48161,sign,27,0,0,,14.124877,49.300103
+44544679,709,Písek - Václavské nám. park,48162,sign,0,0,0,,14.131771,49.309631
+44544719,709,Písek - U Potůčku/ K Lipám,48163,sign,27,0,0,,14.129705,49.296769
+44544775,709,Písek - Hlavní nádraží,48164,sign,0,0,0,,14.143288,49.296762
+44544904,709,Písek - parkoviště za Kozlovnou,48168,sign,0,0,0,,14.144259,49.308735
+44544951,709,Písek - parkoviště za OtavArena,48169,sign,0,0,0,,14.135231,49.308798
+44545073,709,Písek - workout hřiště,48170,sign,0,0,0,,14.147494,49.317401
+44545116,709,Písek - parkoviště U Vodáka,48171,sign,0,0,0,,14.174327,49.309652
+44545164,709,Písek - chata V Živci,48172,sign,0,0,0,,14.193649,49.31061
+44545294,709,Písek - Semice bus,48173,sign,0,0,0,,14.177159,49.286154
+44545409,709,Písek - U Báby Lišků,48174,sign,0,0,0,,14.187577,49.291283
+44545481,709,Písek - Smrkovice bus,48175,sign,0,0,0,,14.154638,49.280575
+66098120,709,Písek - roh K.Čapka/U Obory,48403,sign,0,0,0,,14.154875,49.303321
+66098328,709,Písek - stanice Jih ,48404,sign,0,0,0,,14.151909,49.302174
+66098576,709,Písek - Smrkovická (naproti trafice),48405,sign,0,0,0,,14.152011,49.301488
+66098817,709,Písek - roh T.Přátelství/Smrkovická,48406,sign,0,0,0,,14.153137,49.300208
+66099096,709,Písek - bus Nádražní (u zídky),48407,sign,0,0,0,,14.148191,49.300778
+66099698,709,Písek - roh Klostermanova/Lip.alej (rozšířený chodník),48408,sign,0,0,0,,14.145477,49.302342
+66100823,709,Písek - bus/Lidl,48410,sign,0,0,0,,14.145906,49.298868
+66101041,709,Písek - Kaufland,48411,sign,0,0,0,,14.142575,49.298371
+66101198,709,Písek - Na Rozhledně (nad tratí),48412,sign,0,0,0,,14.136143,49.301869
+66101409,709,Písek - obchodní zóna,48413,sign,0,0,0,,14.159279,49.297507
+77048834,773,Einfangstraße,32519,sign,0,7,0,,12.15335,47.573557
+77049197,773,Krankenhaus,32501,sign,0,7,0,,12.150936,47.570966
+77049449,773,Stuttgarter Straße,32503,sign,0,7,0,,12.178566,47.590183
+77049793,773,Studentenwohnheim,32505,sign,0,7,0,,12.15897,47.576666
+77049925,773,Weissachstraße,32506,sign,0,7,0,,12.165399,47.575962
+77050029,773,Riedel Glas,32507,sign,0,7,0,,12.163223,47.574015
+77050261,773,FMZ Salurner Straße,32508,sign,0,7,0,,12.158458,47.574903
+77050376,773,Altenwohnheim Zell,32509,sign,0,7,0,,12.160507,47.582771
+77050871,773,Zeller Straße,32510,sign,0,7,0,,12.162326,47.586828
+77051782,773,Bahnhof,32512,sign,0,7,0,,12.166508,47.583019
+77052081,773,Bozner Platz / BH,32513,sign,0,7,0,,12.172457,47.579262
+77054227,773,Fachhochschule,32514,sign,0,7,0,,12.173488,47.583238
+77054573,773,Fischergries,32515,sign,0,7,0,,12.168421,47.583596
+77054733,773,Arkadenplatz,32517,sign,0,7,0,,12.170799,47.582313
+77054807,773,Schwimmbad,32518,sign,0,7,0,,12.168385,47.58994
+79483831,773,Kaisertal / Kaiseraufstieg,32530,sign,0,7,0,,12.188315,47.593685
+79483956,773,FMZ Rosenheimer Straße,32520,sign,0,7,0,,12.174951,47.593976
+79484069,773,Feldgasse,32521,sign,0,7,0,,12.172717,47.591274
+139040129,773,KLARA Endach,32522,sign,24,1,0,,12.154377,47.571745
+139041005,773,KLARA Zentrum,32523,sign,23,1,0,,12.173206,47.584342
+135350797,851,Av. Barcelona - Goytisolo,34924,stele,16,26,0,,2.057898,41.362718
+135351007,851,Centre Miquel Martí i Pol,34845,stele,16,22,0,,2.071543,41.369016
+135354121,851,Ciutat esportiva Joan Gamper,34848,stele,0,26,0,,2.047264,41.375522
+135356035,851,Av. Lluís Companys - Av. de la Generalitat,34926,stele,0,18,0,,2.056783,41.375464
+45392398,709,U Racka,48181,sign,0,0,0,,14.145775,49.313049
+66094005,709,Písek - roh Lip.alej u Filmové akademie (rozšířený chodník),48392,sign,0,0,0,,14.144441,49.300474
+66096353,709,Písek - Rokycanova/Legionářská,48394,sign,0,0,0,,14.16098,49.309683
+66096550,709,Písek - roh Lesopark II,48395,sign,27,0,0,,14.16312,49.309718
+66096738,709,Písek - Papírnictví Louženská (výklenek),48397,sign,0,0,0,,14.159049,49.305892
+66097215,709,Písek - roh Šobrova/Budovatelská,48399,sign,0,0,0,,14.162042,49.303594
+66097412,709,Písek - Šobrova (rozšířené místo u trafiky),48400,sign,0,0,0,,14.158931,49.303769
+135351108,851,Centre Cívic Torreblanca,34847,stele,0,24,0,,2.0601,41.377144
+135354249,851,Centre Mercè Rodoreda,34849,stele,14,14,0,,2.054342,41.36701
+135355812,851,Plaça del Mercat,34846,stele,0,12,0,,2.073825,41.366902
+135355918,851,Centre Cívic Antoni Gaudí,34925,stele,0,16,0,,2.069,41.372987
+5445411,450,III Aleja NMP,6346,7inch,0,15,0,,19.106523,50.812297
+5445437,450,Plac Biegańskiego,6345,7inch,0,15,0,,19.112628,50.812436
+5445441,450,Pasaż Opolczyka/Urząd Miasta,6336,7inch,0,15,0,,19.115358,50.80985
+5445446,450,Piłsudskiego/PKP,6335,7inch,0,15,0,,19.12219,50.80814
+5445457,450,Plac Daszyńskiego,6344,7inch,0,15,0,,19.126017,50.81183
+5445458,450,Żużlowa/Hala Sportowa,6337,7inch,0,15,0,,19.153279,50.804867
+41479202,266,Rheingönheim - Endstelle,25092,smart_sign,0,0,0,,8.419181,49.443502
+41479474,266,Rheingönheim - S-Bahnhof Westseite,25091,smart_sign,0,0,0,,8.409256,49.447733
+41479520,266,Rheingönheim - S-Bahnhof Ostseite,25090,smart_sign,0,0,0,,8.409986,49.447391
+41479572,266,Gartenstadt - Von-Kieffer-Straße,25075,smart_sign,0,0,0,,8.402663,49.453229
+344839,266,Hochschule Ludwigshafen,2594,stele,0,20,0,,8.42359,49.473381
+77049338,773,Sparchner Straße,32502,sign,0,7,0,,12.181564,47.593091
+44544860,709,Písek - U Vodárny - parkoviště,48167,sign,0,0,0,,14.135896,49.304286
+44545559,709,Písek - Topolová bus,48176,sign,0,0,0,,14.194336,49.270675
+44548847,709,Písek - U Vodárny,48177,sign,0,0,0,,14.130038,49.30691
+44714749,709,Písek - U Sulana,48178,sign,0,0,0,,14.156983,49.320737
+44721606,709,Písek - nábřeží 1. máje (u lávky),48179,sign,0,0,0,,14.144688,49.316136
+45113795,709,Letní plovárna u Václava,48180,sign,0,0,0,,14.126977,49.309031
+66098011,709,Písek - roh Pažoutova/Pod Šobrovnou,48402,sign,0,0,0,,14.163029,49.301359
+344836,266,Berliner Platz,2591,stele,0,10,0,,8.4509,49.480502
+344838,266,Pfalzbau,2593,stele,0,10,0,,8.446378,49.480293
+344840,266,Rhein-Galerie,2595,stele,0,8,0,,8.448508,49.484154
+350066,266,S-Bahnhof LU-Mitte,25002,smart_sign,0,0,0,,8.451587,49.479648
+660990,266,BASF Besucherzentrum,2596,stele,0,17,0,,8.431106,49.49542
+660995,266,Hemshof - Goerdelerplatz,2597,stele,0,8,0,,8.432114,49.48912
+660999,266,Hemshof - BASF Süd,2598,stele,0,8,0,,8.436685,49.49241
+661021,266,LU Süd - Schützenplatz,2601,stele,0,8,0,,8.447843,49.473876
+661024,266,LU Süd - Rheinallee,2602,stele,0,8,0,,8.455203,49.47534
+2129321,266,Kreisverwaltung - Europaplatz,2604,stele,0,8,0,,8.4398,49.48472
+3938985,266,Pfalzgrafenplatz,2605,stele,0,8,0,,8.450814,49.475546
+44242571,709,U Platana,48135,sign,0,0,0,,14.143437,49.312684
+44242409,709,Úřady,48130,sign,0,0,0,,14.14999,49.305605
+44242282,709,Bakaláře,48126,sign,0,0,0,,14.148281,49.306279
+44242362,709,U Reinerů,48128,sign,0,0,0,,14.149067,49.30933
+77051686,773,Arena,32511,sign,0,7,0,,12.168249,47.586806
+44242381,709,Pošta,48129,sign,0,0,0,,14.151551,49.308778
+77049587,773,Kaiserlift,32504,sign,0,7,0,,12.185991,47.590075
+44242257,709,Knihovna,48125,sign,0,0,0,,14.149448,49.307627
+44242750,709,Sady,48142,sign,0,0,0,,14.148675,49.302604
