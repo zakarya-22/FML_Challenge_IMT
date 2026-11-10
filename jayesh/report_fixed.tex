@@ -1,0 +1,337 @@
+%***********************************************************************************************
+
+%-----------------------------------------------------------------------------------------------
+%                                    DEBUT DU FICHIER D'EDITION
+%-----------------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,english]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{newtxtext} % Police pour texte
+\usepackage{newtxmath} % Police pour formules
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{microtype}
+\usepackage{float}
+\usepackage{enumitem} % for itemize options [leftmargin=*,noitemsep]
+\usepackage{makecell}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{array,tabularx,booktabs}
+\usepackage{array,longtable}
+\usepackage[table]{xcolor}
+\setlength{\tabcolsep}{6pt}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\renewcommand{\arraystretch}{1.2}
+\definecolor{riskgreen}{RGB}{213,245,227}
+\definecolor{riskamber}{RGB}{255,243,205}
+\definecolor{riskred}{RGB}{255,214,214}
+
+\usepackage{float}
+\usepackage{pdflscape}  % ou lscape
+\usepackage{rotating}
+
+% --- couleurs & tableaux ---
+\usepackage{colortbl}    % optionnel mais utile
+\usepackage{tabularx}
+\usepackage{ragged2e}
+
+% --- helpers : criticité & a posteriori ---
+\newcommand{\crit}[1]{%
+  \ifnum#1<6
+    \cellcolor{riskgreen}\textbf{#1}%
+  \else\ifnum#1<13
+    \cellcolor{riskamber}\textbf{#1}%
+  \else
+    \cellcolor{riskred}\textbf{#1}%
+  \fi\fi
+}
+
+\newcommand{\apok}{\cellcolor{riskgreen}}     % non avéré
+\newcommand{\apomed}{\cellcolor{riskamber}}   % avéré moyen / partiel
+\newcommand{\apohigh}{\cellcolor{riskred}}    % avéré important
+
+
+\usepackage{framed}    % Permet de surligner les résultats importants
+
+% L'option "copyright" affiche la licence Creative Common en 4eme de couverture
+% Les informations de copyright sont paramétrables, ci-dessous :
+
+\usepackage[copyright]{../sty/imta} % édition avec copyright en 4eme de couverture
+%\usepackage{../sty/imta}    % édition sans copyright en 4eme de couverture
+% Signets et hyperliens (à charger en dernier)
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue,citecolor=IMTAbleu]{hyperref}
+% Mise en évidence de textes par icônes et barre verticale (à charger en dernier)
+\usepackage{../sty/awesomebox}
+
+%----------------- Métadonnées du PDF (facilite le travail des moteurs de recherche) -----------
+\hypersetup{
+    pdfinfo = {
+        Author = {<Auteur 1>; <Auteur 2>; ...},
+        Title = {<Titre du document>},
+        Keywords = {<Mot-clé 1>; <Mot-clé 2>; ...}
+    }
+}
+
+%--------------------------- Définition du contenu du pied de page ----------------------------
+
+% Le pied de page contient par défaut le titre du document.
+% Il peut être remplacé en décommentant l'une des lignes ci-dessous
+
+%\IMTAfooter{Modèle de document \LaTeX{} IMT Atlantique} % Exemple de remplacement par un autre texte
+\IMTAfooter{\thereportnumber} % Utilisation du numéro de rapport de recherche
+
+%-------------------- Informations de copyright pour quatrième de couverture ------------------
+%          (uniquement si l'option "copyright" est présente pour le package imta)
+
+\IMTCopyright{[Choisir une licence Creative Commons\\\URLcclicence\\
+               et l’apposer ici à la place de cette phrase en enlevant les crochets]}
+
+%----------------- Définitions d'ensembles et d'opérateurs mathématiques ----------------------
+
+\def\Cset{\mathbb{C}} % complexes
+\def\Hset{\mathbb{H}} % hilbert
+\def\Nset{\mathbb{N}} % entiers naturels
+\def\Qset{\mathbb{Q}} % rationnels
+\def\Rset{\mathbb{R}} % reels
+\def\Zset{\mathbb{Z}} % entiers relatifs
+\def\Dset{\mathbb{D}} % disque unite ouvert
+\def\Eset{\mathbb{E}} % esperance mathematique
+
+%----------------- PDF_Reunion_de_lancement ----------------------
+\usepackage{pdfpages}
+\usepackage{subcaption}
+
+%-------------------------------------- FIN DES DEFINITIONS ----------------------------------
+
+\begin{document}
+\pagestyle{fancy}
+\fancyfoot[C]{Page \thepage\ of \pageref{LastPage}}
+
+
+%---------------------------------------------------------------------------------------------
+%                                   PAGE DE TITRE (please modify)
+%---------------------------------------------------------------------------------------------
+
+\entity{\textbf{\large{IMT Atlantique}}\\
+    Technopôle de Brest-Iroise - CS 83818\\
+    29238 Brest Cedex 3\\
+    Téléphone: +33 (0)2 29 00 13 04\\
+    Télécopie: +33 (0)2 29 00 10 12\\
+URL: \URLimta
+} % end of \entity
+
+\DocumentType{\huge{Report - Bike Sharing 2026 Challenge }}
+
+\title{FML 2026 Challenge - Analysis and Prediction over Bike Sharing Data}
+
+\author{
+        \vspace{0.8cm}
+    Zakarya BOUMESSAOUD \and
+    Bérénice CARDOSO--FAUCHER \and
+    Jayesh SWAMI\and
+    Nourane KAHLFALLI\and
+    Chi Bach PHAM \and
+    \and
+        \textbf{UE C :} Fundamentals of Machine Learning (FML) \and
+        \textbf{Professors :} Romain Billot and Gabor Bella \and
+}
+
+\version{2.0}
+
+\date{\today}
+
+%------------------------------------------ Do not modify ------------------------------------
+\IMTAfrontcover
+\pagestyle{IMTAfancy} % Changement du style de page pour avoir en-tête et pied de page
+%--------------------------------------- End of do not modify --------------------------------
+
+%% Affichage des listes et tables.
+\IMTAsommaire
+\newpage
+\normalfont\normalsize
+
+%---------------------------------------------------------------------------------------------
+%                                   CORPS DU DOCUMENT (please modify)
+%---------------------------------------------------------------------------------------------
+\section{Data Exploration and Preprocessing Task}
+\subsection{Map visualisation of bike trips \& sharing stations}
+
+To get a first grasp of our dataset, one of us developed an interactive mapping tool that displays the main bike-sharing stations and trips across Europe (see \url{https://github.com/jayesh-swami/eu-bike-trips}). Looking at cities like Barcelona (Figure~\ref{fig:map_barcelona}), we can already see spatial clusters of trips around urban centers, as well as many trips that start or end directly on the street rather than at an official station.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{ico/mapping_jayesh.png}
+    \caption{Barcelona screenshot of the mapping}
+    \label{fig:map_barcelona}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{ico/mapping_jayesh_all_map.png}
+    \caption{Overall screenshot of the mapping}
+    \label{fig:map_europe}
+\end{figure}
+
+
+\subsection{Overall Preparation \& Cleaning}
+
+We chose to do a specific cleaning for each task: unsupervised tasks - bike clustering \& bike sharing stations clustering, and the supervised task one. However some cleaning / preparations steps were common:
+
+\begin{itemize}
+    \item Timezone conversion: all Unix UTC timestamps were converted to local time using each city's IANA timezone (also called Olson database) from the cities.csv dataset (including daylight-saving changes), allowing us to compare ``8 AM'' consistently across 15 countries and extract local hours and weekend flags.
+    \item Redundant and uncollected variables: the column rack\_locks in stations.csv is 100\% null (2,932 missing values) and was dropped. In bike\_types.csv, 30 bike types had missing propulsion and capacity info; since none of their trips had battery logs, we created a propulsion\_filled descriptor defaulting to human (and 1 seat), without dropping the 2,346 corresponding trips so as not to penalize specific cities like Komorniki and Luboń. This latter data can be considered as MNAR (Missing Not At Random).
+\end{itemize}
+
+\subsection{Specific Preparation \& Cleaning}
+\subsubsection{Unsupervised learning: Clustering Bike Trips}
+\begin{itemize}
+    \item
+    \item
+\end{itemize}
+
+\subsubsection{Unsupervised learning: Clustering Bike Sharing Stations}
+
+\begin{itemize}
+    \item The 33 stations (1.1\%) with no status records were dropped. Most of them look like test, workshop or seasonal tourist stations that were never active, so they are not missing at random, but removing them does not bias the analysis.
+    \item The 82 cities (31\%) with no stations were dropped. They have no trips either, so no data is lost.
+    \item Station 205113328 (\textit{Tecklenburg}) was removed, as its corrupted coordinates put it 4,945~km away from its city.
+    \item For the e-bike shares, the 3.7\% of trips with no station at either end were left out. They mostly come from a few cities, so they are treated as MAR (Missing At Random). Looking at where these trips start and end could help choose locations for new stations.
+\end{itemize}
+
+\subsubsection{Supervised learning: Predict Station Availability}
+
+\newpage
+
+%---------------------------------------------------------------------------------------------
+
+\section{Unsupervised learning: Clustering Bike Trips}
+
+%---------------------------------------------------------------------------------------------
+\section{Unsupervised learning: Clustering Bike Sharing Stations}
+\subsection{\textit{station\_status} over periods of time and countries}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{ico/station_status_records(hour, month, city).png}
+    \caption{Number of \textit{station\_status} records by local hour, month and country.}
+    \label{fig:status_counts}
+\end{figure}
+
+After cleaning, the data contains 2,925,958 status records for 2,898 stations. We use the number of \textit{station\_status} records as a measure of station usage. Stations are mainly used during the day. The main peak is in the afternoon, between 3 pm and 6 pm (highest at 4 pm). On weekdays there is a smaller peak between 7 and 9 am, which matches commuting hours (Figure~\ref{fig:status_counts}). Cold months (November to February) have fewer records than spring and summer, which is expected.
+
+The monthly counts also show a sudden drop in July and August. This drop comes from the data and not from a real summer drop in bike usage, since the dataset only covers August 26--31, 2022 and July 1--16, 2023, so these two months have far fewer days of data.
+
+Poland and Germany together account for more than half of the stations (57\%) and of the status records (56\%).
+
+When the hourly counts are plotted separately for each month and each country, the same shape appears almost everywhere, with a morning peak around 7--8 am and a larger afternoon peak.
+
+\subsection{GHS-SMOD analysis}
+
+GHS-SMOD is a public dataset that classifies every 1~km$^2$ cell of a grid at two levels of detail, a main class (urban centre, urban cluster or rural) and a more detailed class based on density (from urban centre down to very low density rural). We added this external dataset by reading the class of the grid cell under each station's location (using \texttt{rasterio} and \texttt{pyproj}). Surprisingly, the hourly and monthly curves look almost the same for every SMOD class (Figure~\ref{fig:ghs_hourly}). We also ran a Correspondence Analysis (CA) of SMOD class $\times$ e-bike/human trip counts. Because the counts are so large the association is statistically significant, but it is weak (total inertia 0.064 for the main classes and 0.078 for the detailed classes). Urban versus rural density alone therefore does not explain how stations are used across the day, which led us to a multivariate factorial approach.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{ghs_precise_hour.png}
+    \caption{Hourly \textit{station\_status} records per GHS-SMOD class, with almost the same curve for every class.}
+    \label{fig:ghs_hourly}
+\end{figure}
+
+\subsection{Iterative Factorial Analysis (PCA to FAMD) and K-Means}
+
+To find meaningful types of stations, we tried several sets of features before choosing our final setup (Table~\ref{tab:station_iterations}).
+
+\begin{table}[htbp]
+    \centering
+    \small
+    \caption{Main iterations of station feature design and clustering.}
+    \label{tab:station_iterations}
+    \begin{tabularx}{\textwidth}{l p{4.2cm} X}
+        \toprule
+        \textbf{Iteration} & \textbf{Features used} & \textbf{Outcome \& decision} \\
+        \midrule
+        1. Initial FAMD & 3h weekday shares, size, activity, weekend share, SMOD, terminal type & Little structure, the first 2 axes explain only 22.5\% of the variance. \\
+        2. Flow PCA & 16 (dep.\ $-$ arr.) 3h bins (weekday and weekend) + distance to centre & Weak separation (elbow at $k=4$, silhouette 0.06--0.12); dropped. \\
+        3. 6h FAMD & 6h weekday shares, size, activity, weekend share, SMOD, terminal type & Silhouette rose with $k$, but the clusters followed the terminal type (ARI 0.91 at $k=10$), so \texttt{terminal\_type} was removed. \\
+        \textbf{4. Final FAMD} & \textbf{12h AM/PM shares (weekday and weekend), size, activity, weekend share, e-bike share, SMOD} & \textbf{Best balance}, the first 3 axes explain $\sim$52\% of the variance. The inverse shares (PM, human) are display-only. \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+Finally, we grouped the stations with K-means (Figure~\ref{fig:famd_clusters}). What really made the difference was splitting the day into just two halves, morning and afternoon/evening, which suddenly made the groups easy to read.
+\begin{itemize}
+    \item \textbf{With 2 groups}, we get small stations that are busier in the morning on one side, and bigger stations that come alive later in the day on the other. That said, every station is used more after noon, so the ``morning'' stations are only morning-leaning.
+    \item \textbf{With 3 groups}, the rural stations split off into a group of their own, and people there use e-bikes more than in the cities.
+\end{itemize}
+We tried other clustering methods too. They all found the same rural group, so we are confident about that one. The morning/evening split is shakier, since not every method picks it up.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.48\textwidth]{figures/famd_clusters.png}
+    \caption{Final FAMD projection with the $k=3$ K-means clusters (morning-leaning, evening-leaning and rural stations).}
+    \label{fig:famd_clusters}
+\end{figure}
+
+\subsection{Table recap of other analyses}
+\newpage
+%---------------------------------------------------------------------------------------------
+\section{Supervised learning: Predict Station Availability}
+
+Two models were used: lightgbm and random forest.
+
+\subsection{Model implementation}
+merging + MAE + mergeasof + microseconds: why all those choices?
+
+\subsection{Results}
+bla bla accuracy
+
+\subsection{Interpretation}
+blaba
+
+\subsection{Problem Formulation, Target Construction \& Feature Engineering}
+
+\begin{itemize}[leftmargin=*,noitemsep,topsep=2pt]
+    \item \textbf{Target \& Resampling:} Because \texttt{stations\_status} records events only when dock occupancy changes, observation intervals are irregular. An initial staleness check on event-based logs via backward nearest-time matching (\texttt{merge\_asof}) revealed that target observations at $t+1\text{h}$ are on average $31$~minutes old, with the dock count remaining completely unchanged in $42.5\%$ of observations. To train models without sampling frequency bias, stations with $\ge 100$ events were resampled onto an hourly grid using ceiling rounding (\texttt{ceil("h")}) followed by forward-fill (\texttt{ffill}), producing $1{,}500{,}848$ station-hour instances across $202$ active stations.
+
+    \item \textbf{Differential Formulation ($\Delta$):} Current inventory (\texttt{bikes\_now}) has an extremely strong linear correlation with future inventory ($r = 0.988$). Directly predicting raw bike counts causes regression models to collapse toward the identity function. Instead, models were trained to predict the net change $\Delta = y_{t+1\text{h}} - y_t$. Predictions are then reconstructed as $\hat{y}_{t+1\text{h}} = \max(0, y_t + \hat{\Delta})$.
+
+    \item \textbf{Feature Engineering ($27$ predictors):}
+    \begin{itemize}[leftmargin=*,noitemsep]
+        \item \textit{Current State:} \texttt{bikes\_now}, \texttt{free\_racks}, estimated total capacity, and \texttt{fill\_ratio}.
+        \item \textit{Temporal Lags \& Dynamics:} Historical shifts at $1\text{h}$, $2\text{h}$, $3\text{h}$, $24\text{h}$ (yesterday), and $168\text{h}$ (last week); $1\text{h}$ net difference (\texttt{diff\_1h}).
+        \item \textit{Rolling Window Statistics:} $3\text{h}$ moving average; $24\text{h}$ rolling mean, standard deviation, minimum, and maximum.
+        \item \textit{Cyclical Local Time:} Timezone-adjusted harmonic encodings ($\sin/\cos$ of hour-of-day), day-of-week, and weekend indicator.
+        \item \textit{Static Context:} \texttt{country}, \texttt{city\_id}, \texttt{terminal\_type}, \texttt{place\_type}, nominal \texttt{bike\_racks}, and station coordinates.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Experimental Setup, Results \& Interpretation}
+
+The dataset was partitioned using a strict chronological split to prevent lookahead leakage: \textbf{Train} ($< \text{May 2023}$, randomly sampled at $300\text{k}$ rows), \textbf{Validation} ($\text{May 2023}$, $149\text{k}$ rows), and \textbf{Test} ($\text{June--July 2023}$, $218\text{k}$ rows). Models were evaluated using Mean Absolute Error (MAE) against a non-trivial \textbf{Persistence Baseline} ($\hat{\Delta} = 0$, i.e., $\hat{y}_{t+1\text{h}} = y_t$).
+
+\begin{table}[htbp]
+    \centering
+    \small
+    \caption{Model evaluation on the hourly station availability test set (MAE in bikes).}
+    \label{tab:supervised_results}
+    \begin{tabularx}{\textwidth}{l Y c c}
+        \toprule
+        \textbf{Model} & \textbf{Loss function / objective} & \textbf{Test MAE} & \textbf{vs.\ baseline} \\
+        \midrule
+        Persistence baseline & None ($\hat{\Delta} = 0$) & $0.3780$ & Reference \\
+        \textbf{LightGBM regressor} & L1 loss (\texttt{regression\_\allowbreak l1}) & $\mathbf{0.3744}$ & $\mathbf{-0.96\%}$ (best) \\
+        Random Forest & Squared error (L2 / MSE) & $0.4089$ & $+8.17\%$ \\
+        XGBoost regressor & Squared error (L2 / MSE) & $0.4499$ & $+19.02\%$ \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
+\noindent\textbf{Critical Interpretation (L1 vs. L2 Optimization):} \\
+On a continuous hourly grid across heterogeneous networks, most stations undergo zero net change during off-peak hours and overnight periods ($\Delta = 0$). Random Forest and XGBoost minimize Mean Squared Error (L2 loss), which optimizes for the \textit{conditional mean} $\mathbb{E}[\Delta \mid X]$. In a zero-inflated target distribution, this estimates small non-zero fractional deltas (e.g., $\hat{\Delta} \approx 0.15$) across quiescent stations, directly degrading MAE relative to an exact-zero baseline.
+
+Conversely, LightGBM configured with \texttt{regression\_l1} estimates the \textit{conditional median}, driving predictions to $\hat{\Delta} \approx 0$ during inactive hours while successfully leveraging rolling averages and 24-hour lags to capture true commuting inflows and outflows, thereby beating the persistence threshold.
+
+\end{document}

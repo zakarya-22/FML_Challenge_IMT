@@ -6,3 +6,4 @@
 __pycache__/
 jayesh/ai/models/*.csv
 /bike_sharing_challenge_2026/*
+.ipynb_checkpoints/
