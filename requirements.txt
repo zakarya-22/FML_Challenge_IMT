@@ -11,3 +11,4 @@ scipy
 IPython
 lightgbm
 xgboost
+nbformat
