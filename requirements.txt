@@ -9,3 +9,5 @@ rasterio
 pyproj
 scipy
 IPython
+lightgbm
+xgboost
